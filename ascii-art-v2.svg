@@ -1,38 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 420" width="370" height="420">
-<style>
-  .bg { fill: #0d1117; rx: 8px; ry: 8px; stroke: #30363d; stroke-width: 1px; }
-  .title-bar { fill: #161b22; }
-  .title-dot-1 { fill: #ff5f56; }
-  .title-dot-2 { fill: #ffbd2e; }
-  .title-dot-3 { fill: #27c93f; }
-  .title-text { fill: #8b949e; font-family: monospace; font-size: 11px; }
-  .ascii-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 7.5px; font-weight: bold; white-space: pre; }
-  .c-name { fill: #58a6ff; }
-  .c-flammia { fill: #79c0ff; }
-  .c-subtitle { fill: #39d353; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; font-weight: bold; }
-  .c-sep { fill: #30363d; font-family: monospace; font-size: 9.5px; }
-</style>
-  <rect width="370" height="420" class="bg"/>
-  <path d="M0 8 C0 3.58 3.58 0 8 0 L362 0 C366.42 0 370 3.58 370 8 L370 28 L0 28 Z" class="title-bar"/>
-  <circle cx="15" cy="14" r="4" class="title-dot-1"/>
-  <circle cx="27" cy="14" r="4" class="title-dot-2"/>
-  <circle cx="39" cy="14" r="4" class="title-dot-3"/>
-  <text x="54" y="18" class="title-text">gerardo@banner ~ ascii_art.sh</text>
-  <text x="12" y="110" class="ascii-text c-name"> ██████╗ ███████╗██████╗  █████╗ ██████╗ ██████╗  ██████╗ </text>
-  <text x="12" y="126" class="ascii-text c-name">██╔════╝ ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔═══██╗</text>
-  <text x="12" y="142" class="ascii-text c-name">██║  ███╗█████╗  ██████╔╝███████║██████╔╝██║  ██║██║   ██║</text>
-  <text x="12" y="158" class="ascii-text c-name">██║   ██║██╔══╝  ██╔══██╗██╔══██║██╔══██╗██║  ██║██║   ██║</text>
-  <text x="12" y="174" class="ascii-text c-name">╚██████╔╝███████╗██║  ██║██║  ██║██║  ██║██████╔╝╚██████╔╝</text>
-  <text x="12" y="190" class="ascii-text c-name"> ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ </text>
-  <text x="12" y="206" class="ascii-text c-name"></text>
-  <text x="12" y="222" class="ascii-text c-flammia">███████╗██╗      █████╗ ███╗   ███╗███╗   ███╗██╗█████╗  </text>
-  <text x="12" y="238" class="ascii-text c-flammia">██╔════╝██║     ██╔══██╗████╗ ████║████╗ ████║██║██╔══██╗</text>
-  <text x="12" y="254" class="ascii-text c-flammia">█████╗  ██║     ███████║██╔████╔██║██╔████╔██║██║███████║</text>
-  <text x="12" y="270" class="ascii-text c-flammia">██╔══╝  ██║     ██╔══██║██║╚██╔╝██║██║╚██╔╝██║██║██╔══██║</text>
-  <text x="12" y="286" class="ascii-text c-flammia">██║     ███████╗██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║██║██║  ██║</text>
-  <text x="12" y="302" class="ascii-text c-flammia">╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝</text>
-  <text x="12" y="318" class="ascii-text c-name"></text>
-  <text x="12" y="334" class="c-sep">=========================================================</text>
-  <text x="12" y="350" class="c-subtitle">      R&amp;D ENGINEER | BACKEND &amp; AI | AUTOMATIONS          </text>
-  <text x="12" y="366" class="c-subtitle">=========================================================</text>
+  <rect width="370" height="420" fill="#0d1117" rx="8" ry="8" stroke="#30363d" stroke-width="1"/>
+  <path d="M0 8 C0 3.58 3.58 0 8 0 L362 0 C366.42 0 370 3.58 370 8 L370 28 L0 28 Z" fill="#161b22"/>
+  <circle cx="15" cy="14" r="4" fill="#ff5f56"/>
+  <circle cx="27" cy="14" r="4" fill="#ffbd2e"/>
+  <circle cx="39" cy="14" r="4" fill="#27c93f"/>
+  <text x="54" y="18" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="11">gerardo@banner ~ ascii_art.sh</text>
+  <text x="12" y="110" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve"> ██████╗ ███████╗██████╗  █████╗ ██████╗ ██████╗  ██████╗ </text>
+  <text x="12" y="126" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">██╔════╝ ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔═══██╗</text>
+  <text x="12" y="142" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">██║  ███╗█████╗  ██████╔╝███████║██████╔╝██║  ██║██║   ██║</text>
+  <text x="12" y="158" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">██║   ██║██╔══╝  ██╔══██╗██╔══██║██╔══██╗██║  ██║██║   ██║</text>
+  <text x="12" y="174" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">╚██████╔╝███████╗██║  ██║██║  ██║██║  ██║██████╔╝╚██████╔╝</text>
+  <text x="12" y="190" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve"> ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ </text>
+  <text x="12" y="206" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve"></text>
+  <text x="12" y="222" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">███████╗██╗      █████╗ ███╗   ███╗███╗   ███╗██╗█████╗  </text>
+  <text x="12" y="238" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">██╔════╝██║     ██╔══██╗████╗ ████║████╗ ████║██║██╔══██╗</text>
+  <text x="12" y="254" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">█████╗  ██║     ███████║██╔████╔██║██╔████╔██║██║███████║</text>
+  <text x="12" y="270" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">██╔══╝  ██║     ██╔══██║██║╚██╔╝██║██║╚██╔╝██║██║██╔══██║</text>
+  <text x="12" y="286" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">██║     ███████╗██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║██║██║  ██║</text>
+  <text x="12" y="302" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve">╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝</text>
+  <text x="12" y="318" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="7.5" font-weight="bold" xml:space="preserve"></text>
+  <text x="12" y="334" fill="#30363d" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="9.5" font-weight="bold" xml:space="preserve">=========================================================</text>
+  <text x="12" y="350" fill="#39d353" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="9" font-weight="bold" xml:space="preserve">      R&amp;D ENGINEER | BACKEND &amp; AI | AUTOMATIONS          </text>
+  <text x="12" y="366" fill="#39d353" font-family="ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace" font-size="9" font-weight="bold" xml:space="preserve">=========================================================</text>
 </svg>
