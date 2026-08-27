@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 420" width="370" height="420">
+<style>
+  .bg { fill: #0d1117; rx: 8px; ry: 8px; stroke: #30363d; stroke-width: 1px; }
+  .title-bar { fill: #161b22; }
+  .title-dot-1 { fill: #ff5f56; }
+  .title-dot-2 { fill: #ffbd2e; }
+  .title-dot-3 { fill: #27c93f; }
+  .title-text { fill: #8b949e; font-family: monospace; font-size: 11px; }
+  .ascii-text { font-family: "Courier New", Courier, monospace; font-size: 9px; fill: #e6edf3; font-weight: bold; white-space: pre; }
+  .accent-text { fill: #58a6ff; font-family: "Courier New", Courier, monospace; font-size: 10px; font-weight: bold; }
+  .highlight-text { fill: #f0883e; font-family: "Courier New", Courier, monospace; font-size: 10px; font-weight: bold; }
+</style>
+  <rect width="370" height="420" class="bg"/>
+  <path d="M0 8 C0 3.58 3.58 0 8 0 L362 0 C366.42 0 370 3.58 370 8 L370 28 L0 28 Z" class="title-bar"/>
+  <circle cx="15" cy="14" r="4" class="title-dot-1"/>
+  <circle cx="27" cy="14" r="4" class="title-dot-2"/>
+  <circle cx="39" cy="14" r="4" class="title-dot-3"/>
+  <text x="54" y="18" class="title-text">gerardo@onepiece ~ ascii_art.sh</text>
+  <defs>
+    <clipPath id="clip-row-0">
+      <rect x="10" y="35" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.00s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-1">
+      <rect x="10" y="49" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.08s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-2">
+      <rect x="10" y="63" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.16s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-3">
+      <rect x="10" y="77" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.24s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-4">
+      <rect x="10" y="91" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.32s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-5">
+      <rect x="10" y="105" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.40s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-6">
+      <rect x="10" y="119" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.48s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-7">
+      <rect x="10" y="133" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.56s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-8">
+      <rect x="10" y="147" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.64s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-9">
+      <rect x="10" y="161" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.72s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-10">
+      <rect x="10" y="175" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.80s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-11">
+      <rect x="10" y="189" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.88s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-12">
+      <rect x="10" y="203" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="0.96s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-13">
+      <rect x="10" y="217" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.04s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-14">
+      <rect x="10" y="231" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.12s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-15">
+      <rect x="10" y="245" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.20s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-16">
+      <rect x="10" y="259" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.28s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-17">
+      <rect x="10" y="273" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.36s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-18">
+      <rect x="10" y="287" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.44s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-19">
+      <rect x="10" y="301" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.52s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-20">
+      <rect x="10" y="315" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.60s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-21">
+      <rect x="10" y="329" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.68s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-22">
+      <rect x="10" y="343" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.76s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-23">
+      <rect x="10" y="357" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.84s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-24">
+      <rect x="10" y="371" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="1.92s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-25">
+      <rect x="10" y="385" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="2.00s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-26">
+      <rect x="10" y="399" width="0" height="14">
+        <animate attributeName="width" from="0" to="350" begin="2.08s" dur="0.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-row-0)">
+    <text x="12" y="46" class="ascii-text">                 ___________________________________</text>
+  </g>
+  <g clip-path="url(#clip-row-1)">
+    <text x="12" y="60" class="ascii-text">               /                                     \</text>
+  </g>
+  <g clip-path="url(#clip-row-2)">
+    <text x="12" y="74" class="ascii-text">              |   ______  _   _  ______  _____  _____ |</text>
+  </g>
+  <g clip-path="url(#clip-row-3)">
+    <text x="12" y="88" class="ascii-text">              |  |  ____|| \ | ||  ____||  ___||  ___||</text>
+  </g>
+  <g clip-path="url(#clip-row-4)">
+    <text x="12" y="102" class="ascii-text">              |  | |__   |  \| || |__   | |__  | |__  |</text>
+  </g>
+  <g clip-path="url(#clip-row-5)">
+    <text x="12" y="116" class="ascii-text">              |  |  __|  | . ` ||  __|  |  __| |  __| |</text>
+  </g>
+  <g clip-path="url(#clip-row-6)">
+    <text x="12" y="130" class="ascii-text">              |  | |____ | |\  || |____ | |____| |____|</text>
+  </g>
+  <g clip-path="url(#clip-row-7)">
+    <text x="12" y="144" class="ascii-text">              |  |______||_| \_||______||______||_____|</text>
+  </g>
+  <g clip-path="url(#clip-row-8)">
+    <text x="12" y="158" class="ascii-text">               \_____________________________________/</text>
+  </g>
+  <g clip-path="url(#clip-row-9)">
+    <text x="12" y="172" class="ascii-text"></text>
+  </g>
+  <g clip-path="url(#clip-row-10)">
+    <text x="12" y="186" class="ascii-text">                   .-----------------------.</text>
+  </g>
+  <g clip-path="url(#clip-row-11)">
+    <text x="12" y="200" class="ascii-text">                 /   ____________________   \</text>
+  </g>
+  <g clip-path="url(#clip-row-12)">
+    <text x="12" y="214" class="ascii-text">                /   /                    \   \</text>
+  </g>
+  <g clip-path="url(#clip-row-13)">
+    <text x="12" y="228" class="ascii-text">             .-'   /     ,----------.     \   '-.</text>
+  </g>
+  <g clip-path="url(#clip-row-14)">
+    <text x="12" y="242" class="ascii-text">           .'     /     /  .------.  \     \     '.</text>
+  </g>
+  <g clip-path="url(#clip-row-15)">
+    <text x="12" y="256" class="ascii-text">          /      /     /  /  __  __ \ \     \      \</text>
+  </g>
+  <g clip-path="url(#clip-row-16)">
+    <text x="12" y="270" class="ascii-text">         |      |     |  |  /  \/  \ | |     |      |</text>
+  </g>
+  <g clip-path="url(#clip-row-17)">
+    <text x="12" y="284" class="ascii-text">  \  /   |      |     |  |  \__/\__/ | |     |      |   \  /</text>
+  </g>
+  <g clip-path="url(#clip-row-18)">
+    <text x="12" y="298" class="ascii-text">   \/     \     |     |   \    /\   /  |     |     /     \/</text>
+  </g>
+  <g clip-path="url(#clip-row-19)">
+    <text x="12" y="312" class="ascii-text">   /\      \     \     \   '--'  '--' /     /     /      /\</text>
+  </g>
+  <g clip-path="url(#clip-row-20)">
+    <text x="12" y="326" class="ascii-text">  /  \      '-.   \     '------------'     /   .-'      /  \</text>
+  </g>
+  <g clip-path="url(#clip-row-21)">
+    <text x="12" y="340" class="ascii-text">               '-. \                      / .-'</text>
+  </g>
+  <g clip-path="url(#clip-row-22)">
+    <text x="12" y="354" class="ascii-text">                  '----------------------'</text>
+  </g>
+  <g clip-path="url(#clip-row-23)">
+    <text x="12" y="368" class="ascii-text"></text>
+  </g>
+  <g clip-path="url(#clip-row-24)">
+    <text x="12" y="382" class="highlight-text">             🏴‍☠️ STRAW HAT PIRATES // ONE PIECE 🏴‍☠️</text>
+  </g>
+  <g clip-path="url(#clip-row-25)">
+    <text x="12" y="396" class="accent-text">            "I'm gonna be the King of the Pirates!"</text>
+  </g>
+  <g clip-path="url(#clip-row-26)">
+    <text x="12" y="410" class="accent-text">                          - Luffy -</text>
+  </g>
+</svg>
