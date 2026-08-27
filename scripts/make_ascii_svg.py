@@ -56,16 +56,16 @@ def generate_svg():
             # FLAMMIA RGB cycle
             fill_color = "#79c0ff"
             anim_tag = '<animate attributeName="fill" values="#79c0ff;#d2a8ff;#56d364;#ffa657;#79c0ff" dur="6s" repeatCount="indefinite"/>'
-        elif "=" in line:
-            # Separator lines RGB cycle
-            fill_color = "#58a6ff"
-            font_size = "12"
-            anim_tag = '<animate attributeName="fill" values="#30363d;#58a6ff;#39d353;#ff7b72;#30363d" dur="6s" repeatCount="indefinite"/>'
-        elif i >= 15:
-            # Subtitle RGB cycle
-            fill_color = "#39d353"
-            font_size = "12"
-            anim_tag = '<animate attributeName="fill" values="#39d353;#f0883e;#58a6ff;#bc8cff;#39d353" dur="6s" repeatCount="indefinite"/>'
+        elif i >= 17:
+            # Subtitle and bottom separator lines RGB cycle
+            if "=" in line:
+                fill_color = "#58a6ff"
+                font_size = "12"
+                anim_tag = '<animate attributeName="fill" values="#58a6ff;#bc8cff;#39d353;#ff7b72;#ffa657;#58a6ff" dur="5s" repeatCount="indefinite"/>'
+            else:
+                fill_color = "#39d353"
+                font_size = "12"
+                anim_tag = '<animate attributeName="fill" values="#39d353;#f0883e;#79c0ff;#d2a8ff;#ff7b72;#39d353" dur="5s" repeatCount="indefinite"/>'
             
         svg_lines.append(f'  <text x="{center_x}" y="{y_pos}" fill="{fill_color}" font-family="{font_mono}" font-size="{font_size}" font-weight="bold" text-anchor="middle" xml:space="preserve">{anim_tag}{escaped_line}</text>')
         
