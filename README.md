@@ -21,7 +21,7 @@
 
 Hello! I'm **Gerardo Rodrigues Flammia**, an **Electronic Engineer in Computing** passionate about **Backend Development**, **Artificial Intelligence**, **Workflow Automations**, and **Modern Technology**.
 
-I specialize in building robust backend systems, integrating cutting-edge Multi-Modal AI models, designing automated workflows, and engineering efficient data pipelines.
+I specialize in building robust backend systems, integrating cutting-edge Multi-Modal AI models, designing automated workflows, engineering efficient data pipelines, and Research and Developement.
 
 * Electronic Engineer in Computing 
 * Backend Architecture, AI Engineering, Process Automation & Cloud Technologies
@@ -29,10 +29,7 @@ I specialize in building robust backend systems, integrating cutting-edge Multi-
 
 ### 🚀 Key Focus Areas
 
-* ⚙️ **Backend Development**: Designing scalable RESTful APIs, robust database architectures (MySQL/PDO), and secure web endpoints.
-* 🤖 **Artificial Intelligence**: Integrating Vision & Multi-Modal LLM models (Google Gemini 2.5 Flash API) for automated extraction and intelligent processing.
-* ⚡ **Workflow Automations**: Constructing end-to-end automated pipelines with **n8n**, Telegram bots, webhooks, and cloud storage.
-* 💻 **Software & Technology**: Developing clean, maintainable software and exploring modern tech paradigms.
+* R&D Engineering
 
 ---
 
