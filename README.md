@@ -21,13 +21,10 @@
 
 Hello! I'm **Gerardo Rodrigues Flammia**, an **Electronic Engineer in Computing** passionate about **Backend Development**, **Artificial Intelligence**, **Workflow Automations**, and **Modern Technology**.
 
-I specialize in building robust backend systems, integrating cutting-edge Multi-Modal AI models (such as **Google Gemini**), designing automated workflows with **n8n**, and engineering efficient data pipelines. I am actively preparing to pursue a **Master's Degree in Artificial Intelligence & Software Engineering**.
+I specialize in building robust backend systems, integrating cutting-edge Multi-Modal AI models, designing automated workflows, and engineering efficient data pipelines.
 
-* 🎓 **Education**: Electronic Engineer in Computing (*Ingeniero Electrónico en Computación*)
-* 🎯 **Future Goals**: Pursuing a Master's Degree in Artificial Intelligence
-* 💡 **Core Interests**: Backend Architecture, AI Engineering, Process Automation & Cloud Technologies
-* 🛠️ **Tech Stack**: Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Linux, Git
-
+* Electronic Engineer in Computing 
+* Backend Architecture, AI Engineering, Process Automation & Cloud Technologies
 ---
 
 ### 🚀 Key Focus Areas
@@ -36,13 +33,6 @@ I specialize in building robust backend systems, integrating cutting-edge Multi-
 * 🤖 **Artificial Intelligence**: Integrating Vision & Multi-Modal LLM models (Google Gemini 2.5 Flash API) for automated extraction and intelligent processing.
 * ⚡ **Workflow Automations**: Constructing end-to-end automated pipelines with **n8n**, Telegram bots, webhooks, and cloud storage.
 * 💻 **Software & Technology**: Developing clean, maintainable software and exploring modern tech paradigms.
-
----
-
-### 💼 Featured Projects
-
-* 💼 **[Automatizacion de Rendicion de Viaticos (Inter)](https://github.com/gerardorflammia/Automatizacion-de-Rendicion-de-Viaticos-Inter)**
-  An automated corporate expense claims system integrating Telegram Bot, n8n workflows, Google Gemini 2.5 Flash OCR vision, PHP, and MySQL for invoice validation and Excel report generation.
 
 ---
 
