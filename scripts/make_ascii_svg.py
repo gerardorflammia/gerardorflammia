@@ -56,7 +56,7 @@ def generate_svg():
             # FLAMMIA RGB cycle
             fill_color = "#79c0ff"
             anim_tag = '<animate attributeName="fill" values="#79c0ff;#d2a8ff;#56d364;#ffa657;#79c0ff" dur="6s" repeatCount="indefinite"/>'
-        elif i >= 17:
+        elif i >= 14:
             # Subtitle and bottom separator lines RGB cycle
             if "=" in line:
                 fill_color = "#58a6ff"
