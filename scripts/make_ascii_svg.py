@@ -59,10 +59,13 @@ def generate_svg():
         
     svg_lines.append('</svg>')
     
-    output_path = os.path.join(os.path.dirname(__file__), "..", "ascii-art-v2.svg")
-    with open(output_path, "w", encoding="utf-8") as f:
+    out1 = os.path.join(os.path.dirname(__file__), "..", "ascii-art.svg")
+    out2 = os.path.join(os.path.dirname(__file__), "..", "ascii-art-v2.svg")
+    with open(out1, "w", encoding="utf-8") as f:
         f.write("\n".join(svg_lines))
-    print(f"Generated {output_path}")
+    with open(out2, "w", encoding="utf-8") as f:
+        f.write("\n".join(svg_lines))
+    print(f"Generated {out1} and {out2}")
 
 if __name__ == "__main__":
     generate_svg()
