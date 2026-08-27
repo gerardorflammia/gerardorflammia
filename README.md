@@ -19,7 +19,7 @@
 
 ### 👨‍💻 About Me
 
-Hello! I'm **Gerardo Rodrigues Flammia**, an **Electronic Engineer in Computing** passionate about **Backend Development**, **Artificial Intelligence**, **Workflow Automations**, and **Modern Technology**.
+Hello! I'm **Gerardo Rodrigues Flammia**, an **Electronic Engineer in Computing** passionate about **Backend Development**, **Artificial Intelligence**, **Workflow Automations**, **Modern Technology**, and **Robotics**.
 
 I specialize in building robust backend systems, integrating cutting-edge Multi-Modal AI models, designing automated workflows, engineering efficient data pipelines, and Research and Developement.
 
@@ -30,6 +30,8 @@ I specialize in building robust backend systems, integrating cutting-edge Multi-
 ### 🚀 Key Focus Areas
 
 * R&D Engineering
+* AI
+* Robotics
 
 ---
 
