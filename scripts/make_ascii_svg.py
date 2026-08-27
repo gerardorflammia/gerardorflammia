@@ -1,44 +1,32 @@
 import os
 
-ASCII_ART = [
-    "                 ___________________________________",
-    "               /                                     \\",
-    "              |   ______  _   _  ______  _____  _____ |",
-    "              |  |  ____|| \\ | ||  ____||  ___||  ___||",
-    "              |  | |__   |  \\| || |__   | |__  | |__  |",
-    "              |  |  __|  | . ` ||  __|  |  __| |  __| |",
-    "              |  | |____ | |\\  || |____ | |____| |____|",
-    "              |  |______||_| \\_||______||______||_____|",
-    "               \\_____________________________________/",
+ASCII_NAME = [
+    "   ______ _____ _____            _____  _____   ____  ",
+    "  / _____|  ___|  __ \\   /\\     |  __ \\|  __ \\ / __ \\ ",
+    " | |  __ | |__ | |__) | /  \\    | |__) | |  | | |  | |",
+    " | | |_ ||  __||  _  / / /\\ \\   |  _  /| |  | | |  | |",
+    " | |__| || |___| | \\ \\/ ____ \\  | | \\ \\| |__| | |__| |",
+    "  \\_____||_____|_|  \\_\\_/    \\_\\|_|  \\_\\_____/ \\____/ ",
     "",
-    "                   .-----------------------.",
-    "                 /   ____________________   \\",
-    "                /   /                    \\   \\",
-    "             .-'   /     ,----------.     \\   '-.",
-    "           .'     /     /  .------.  \\\\     '.",
-    "          /      /     /  /  __  __ \\ \\     \\      \\",
-    "         |      |     |  |  /  \\/  \\ | |     |      |",
-    "  \\  /   |      |     |  |  \\__/\\__/ | |     |      |   \\  /",
-    "   \\/     \\     |     |   \\    /\\   /  |     |     /     \\/",
-    "   /\\      \\     \\     \\   '--'  '--' /     /     /      /\\",
-    "  /  \\      '-.   \\     '------------'     /   .-'      /  \\",
-    "               '-. \\                      / .-'",
-    "                  '----------------------'",
+    "  ______ _        ______  __  __ __  __ _____   /\\\\ ",
+    " |  ____| |      / __  \\  \\/  \\/  |  \\/  |  __ \\ /  \\",
+    " | |__  | |     | |  |  | \\  /\\  /|  \\/  | |__) | /\\ \\",
+    " |  __| | |     | |  |  |  \\/  \\/ | |\\/| |  ___/ /  \\ \\",
+    " | |    | |____ | |__|  |   \\  /  | |  | | |    / ____ \\",
+    " |_|    |______\\______/    \\/   |_|  |_|_|   /_/    \\_\\",
     "",
-    "             🏴‍☠️ STRAW HAT PIRATES // ONE PIECE 🏴‍☠️",
-    "            \"I'm gonna be the King of the Pirates!\"",
-    "                          - Luffy -",
+    "==========================================================",
+    "    SOFTWARE & AI ENGINEER  |  BACKEND & AUTOMATIONS",
+    "==========================================================",
 ]
 
 def generate_svg():
-    row_height = 14
-    total_rows = len(ASCII_ART)
+    row_height = 16
+    total_rows = len(ASCII_NAME)
     width = 370
-    height = max(420, total_rows * row_height + 40)
+    height = max(420, total_rows * row_height + 60)
     
-    # Calculate staggered animation timings
-    duration_per_row = 0.08
-    total_anim_time = total_rows * duration_per_row + 0.5
+    duration_per_row = 0.07
     
     svg_lines = []
     svg_lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">')
@@ -49,9 +37,28 @@ def generate_svg():
     svg_lines.append('  .title-dot-2 { fill: #ffbd2e; }')
     svg_lines.append('  .title-dot-3 { fill: #27c93f; }')
     svg_lines.append('  .title-text { fill: #8b949e; font-family: monospace; font-size: 11px; }')
-    svg_lines.append('  .ascii-text { font-family: "Courier New", Courier, monospace; font-size: 9px; fill: #e6edf3; font-weight: bold; white-space: pre; }')
-    svg_lines.append('  .accent-text { fill: #58a6ff; font-family: "Courier New", Courier, monospace; font-size: 10px; font-weight: bold; }')
-    svg_lines.append('  .highlight-text { fill: #f0883e; font-family: "Courier New", Courier, monospace; font-size: 10px; font-weight: bold; }')
+    svg_lines.append('  .ascii-text { font-family: "Courier New", Courier, monospace; font-size: 8.5px; font-weight: bold; white-space: pre; }')
+    
+    # Animated gradient colors
+    svg_lines.append('  @keyframes colorGlow {')
+    svg_lines.append('    0% { fill: #58a6ff; }')
+    svg_lines.append('    25% { fill: #bc8cff; }')
+    svg_lines.append('    50% { fill: #39d353; }')
+    svg_lines.append('    75% { fill: #f0883e; }')
+    svg_lines.append('    100% { fill: #58a6ff; }')
+    svg_lines.append('  }')
+    
+    svg_lines.append('  @keyframes colorGlowAlt {')
+    svg_lines.append('    0% { fill: #79c0ff; }')
+    svg_lines.append('    33% { fill: #d2a8ff; }')
+    svg_lines.append('    66% { fill: #56d364; }')
+    svg_lines.append('    100% { fill: #79c0ff; }')
+    svg_lines.append('  }')
+
+    svg_lines.append('  .c-name { animation: colorGlow 6s ease-in-out infinite; }')
+    svg_lines.append('  .c-flammia { animation: colorGlowAlt 6s ease-in-out infinite; }')
+    svg_lines.append('  .c-subtitle { fill: #e6edf3; font-family: monospace; font-size: 9.5px; font-weight: bold; }')
+    svg_lines.append('  .c-sep { fill: #30363d; font-family: monospace; font-size: 10px; }')
     svg_lines.append('</style>')
     
     # Background card
@@ -60,32 +67,34 @@ def generate_svg():
     svg_lines.append('  <circle cx="15" cy="14" r="4" class="title-dot-1"/>')
     svg_lines.append('  <circle cx="27" cy="14" r="4" class="title-dot-2"/>')
     svg_lines.append('  <circle cx="39" cy="14" r="4" class="title-dot-3"/>')
-    svg_lines.append('  <text x="54" y="18" class="title-text">gerardo@onepiece ~ ascii_art.sh</text>')
+    svg_lines.append('  <text x="54" y="18" class="title-text">gerardo@banner ~ ascii_name.sh</text>')
     
     # Defs for clip paths
     svg_lines.append('  <defs>')
     for i in range(total_rows):
         begin_time = i * duration_per_row
         svg_lines.append(f'    <clipPath id="clip-row-{i}">')
-        svg_lines.append(f'      <rect x="10" y="{35 + i * row_height}" width="0" height="{row_height}">')
-        svg_lines.append(f'        <animate attributeName="width" from="0" to="{width-20}" begin="{begin_time:.2f}s" dur="0.1s" fill="freeze"/>')
+        svg_lines.append(f'      <rect x="8" y="{45 + i * row_height}" width="0" height="{row_height}">')
+        svg_lines.append(f'        <animate attributeName="width" from="0" to="{width-16}" begin="{begin_time:.2f}s" dur="0.12s" fill="freeze"/>')
         svg_lines.append('      </rect>')
         svg_lines.append('    </clipPath>')
     svg_lines.append('  </defs>')
     
     # Render ASCII rows
-    for i, line in enumerate(ASCII_ART):
-        y_pos = 46 + i * row_height
+    for i, line in enumerate(ASCII_NAME):
+        y_pos = 58 + i * row_height
         escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         
-        css_class = "ascii-text"
-        if "ONE PIECE" in line or "STRAW HAT" in line:
-            css_class = "highlight-text"
-        elif "Luffy" in line or "King of the Pirates" in line:
-            css_class = "accent-text"
+        css_class = "ascii-text c-name"
+        if i >= 7 and i <= 12:
+            css_class = "ascii-text c-flammia"
+        elif i >= 14:
+            css_class = "c-subtitle"
+        elif "=" in line:
+            css_class = "c-sep"
             
         svg_lines.append(f'  <g clip-path="url(#clip-row-{i})">')
-        svg_lines.append(f'    <text x="12" y="{y_pos}" class="{css_class}">{escaped_line}</text>')
+        svg_lines.append(f'    <text x="10" y="{y_pos}" class="{css_class}">{escaped_line}</text>')
         svg_lines.append('  </g>')
         
     svg_lines.append('</svg>')

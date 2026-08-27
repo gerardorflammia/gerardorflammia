@@ -1,13 +1,13 @@
 import os
 
 CARD_DATA = [
-    ("OS", "Ubuntu 24.04 LTS x86_64 / Windows 11"),
-    ("Education", "Electronic Engineering in Computing @ Universidad Yacambú"),
-    ("Role", "Software Engineer & IoT/Automation Developer"),
-    ("Focus", "Full-Stack Development, AI Integration & Embedded Systems"),
+    ("Title / Degree", "Electronic Engineer (Ingeniero Electrónico en Computación)"),
+    ("Specialization", "Backend Development, AI Integration & Workflow Automations"),
+    ("Future Goal", "Pursuing a Master's Degree in Artificial Intelligence"),
+    ("Core Interests", "Backend Engineering, AI Systems, Automations & Tech"),
     ("Main Stack", "Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Git"),
-    ("Featured Project", "Automated Expense Claims (Gemini 2.5 Flash + n8n + PHP)"),
-    ("Anime / Favorite", "One Piece 🏴‍☠️ (\"I'm gonna be the King of the Pirates!\")"),
+    ("Featured Project", "Automated Expense System (Gemini 2.5 Flash + n8n + PHP)"),
+    ("Location", "Venezuela"),
     ("LinkedIn", "linkedin.com/in/gerardo-rodrigues-flammia-1a6522302"),
     ("GitHub", "github.com/gerardorflammia"),
 ]
@@ -52,7 +52,7 @@ def generate_info_card():
     svg_lines.append('  <g class="animated-row" style="animation-delay: 0.1s;">')
     svg_lines.append('    <text x="20" y="55" class="header-name">gerardorflammia</text>')
     svg_lines.append('    <text x="165" y="55" class="header-name" fill="#d2a8ff">@</text>')
-    svg_lines.append('    <text x="180" y="55" class="header-name" fill="#7ee787">laptop-home</text>')
+    svg_lines.append('    <text x="180" y="55" class="header-name" fill="#7ee787">backend-ai-dev</text>')
     svg_lines.append('    <text x="20" y="70" class="header-sep">--------------------------------------------------</text>')
     svg_lines.append('  </g>')
     
@@ -69,8 +69,7 @@ def generate_info_card():
         is_link = "linkedin.com" in val or "github.com" in val
         val_class = "link-text" if is_link else "val-text"
         
-        # Calculate key offset
-        key_width_offset = 20 + max(110, len(key) * 8 + 15)
+        key_width_offset = 20 + max(115, len(key) * 8 + 10)
         svg_lines.append(f'    <text x="{key_width_offset}" y="{y_pos}" class="{val_class}">{val}</text>')
         svg_lines.append('  </g>')
         

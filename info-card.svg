@@ -27,44 +27,44 @@
   <g class="animated-row" style="animation-delay: 0.1s;">
     <text x="20" y="55" class="header-name">gerardorflammia</text>
     <text x="165" y="55" class="header-name" fill="#d2a8ff">@</text>
-    <text x="180" y="55" class="header-name" fill="#7ee787">laptop-home</text>
+    <text x="180" y="55" class="header-name" fill="#7ee787">backend-ai-dev</text>
     <text x="20" y="70" class="header-sep">--------------------------------------------------</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.20s;">
-    <text x="20" y="92" class="key-text">OS:</text>
-    <text x="130" y="92" class="val-text">Ubuntu 24.04 LTS x86_64 / Windows 11</text>
+    <text x="20" y="92" class="key-text">Title / Degree:</text>
+    <text x="142" y="92" class="val-text">Electronic Engineer (Ingeniero Electrónico en Computación)</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.28s;">
-    <text x="20" y="120" class="key-text">Education:</text>
-    <text x="130" y="120" class="val-text">Electronic Engineering in Computing @ Universidad Yacambú</text>
+    <text x="20" y="120" class="key-text">Specialization:</text>
+    <text x="142" y="120" class="val-text">Backend Development, AI Integration & Workflow Automations</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.36s;">
-    <text x="20" y="148" class="key-text">Role:</text>
-    <text x="130" y="148" class="val-text">Software Engineer & IoT/Automation Developer</text>
+    <text x="20" y="148" class="key-text">Future Goal:</text>
+    <text x="135" y="148" class="val-text">Pursuing a Master's Degree in Artificial Intelligence</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.44s;">
-    <text x="20" y="176" class="key-text">Focus:</text>
-    <text x="130" y="176" class="val-text">Full-Stack Development, AI Integration & Embedded Systems</text>
+    <text x="20" y="176" class="key-text">Core Interests:</text>
+    <text x="142" y="176" class="val-text">Backend Engineering, AI Systems, Automations & Tech</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.52s;">
     <text x="20" y="204" class="key-text">Main Stack:</text>
-    <text x="130" y="204" class="val-text">Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Git</text>
+    <text x="135" y="204" class="val-text">Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Git</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.60s;">
     <text x="20" y="232" class="key-text">Featured Project:</text>
-    <text x="163" y="232" class="val-text">Automated Expense Claims (Gemini 2.5 Flash + n8n + PHP)</text>
+    <text x="158" y="232" class="val-text">Automated Expense System (Gemini 2.5 Flash + n8n + PHP)</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.68s;">
-    <text x="20" y="260" class="key-text">Anime / Favorite:</text>
-    <text x="163" y="260" class="val-text">One Piece 🏴‍☠️ ("I'm gonna be the King of the Pirates!")</text>
+    <text x="20" y="260" class="key-text">Location:</text>
+    <text x="135" y="260" class="val-text">Venezuela</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.76s;">
     <text x="20" y="288" class="key-text">LinkedIn:</text>
-    <text x="130" y="288" class="link-text">linkedin.com/in/gerardo-rodrigues-flammia-1a6522302</text>
+    <text x="135" y="288" class="link-text">linkedin.com/in/gerardo-rodrigues-flammia-1a6522302</text>
   </g>
   <g class="animated-row" style="animation-delay: 0.84s;">
     <text x="20" y="316" class="key-text">GitHub:</text>
-    <text x="130" y="316" class="link-text">github.com/gerardorflammia</text>
+    <text x="135" y="316" class="link-text">github.com/gerardorflammia</text>
   </g>
   <g class="animated-row" style="animation-delay: 1.02s;">
     <text x="20" y="354" class="color-block">

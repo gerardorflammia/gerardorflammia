@@ -19,20 +19,30 @@
 
 ### 👨‍💻 About Me
 
-Hello! I'm **Gerardo Rodrigues Flammia**, an **Electronic Engineering in Computing** student at **Universidad Yacambú** (Venezuela) and a passionate **Software & IoT Developer**. 
+Hello! I'm **Gerardo Rodrigues Flammia**, an **Electronic Engineer in Computing** passionate about **Backend Development**, **Artificial Intelligence**, **Workflow Automations**, and **Modern Technology**.
 
-I build full-stack web applications, automate complex business workflows with **n8n**, integrate Multi-Modal AI models (such as **Google Gemini**), and work with embedded microcontrollers and digital systems.
+I specialize in building robust backend systems, integrating cutting-edge Multi-Modal AI models (such as **Google Gemini**), designing automated workflows with **n8n**, and engineering efficient data pipelines. I am actively preparing to pursue a **Master's Degree in Artificial Intelligence & Software Engineering**.
 
-* 🎓 **Education**: B.S. in Electronic Engineering in Computing (Universidad Yacambú)
-* 💼 **Specialization**: Full-Stack Development (PHP / Python / Node.js), Database Design (MySQL), Process Automation (n8n, REST APIs), and AI Vision Integration
-* 🏴‍☠️ **Passions**: One Piece, Clean Code, Embedded Systems & Open Source
+* 🎓 **Education**: Electronic Engineer in Computing (*Ingeniero Electrónico en Computación*)
+* 🎯 **Future Goals**: Pursuing a Master's Degree in Artificial Intelligence
+* 💡 **Core Interests**: Backend Architecture, AI Engineering, Process Automation & Cloud Technologies
+* 🛠️ **Tech Stack**: Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Linux, Git
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Key Focus Areas
+
+* ⚙️ **Backend Development**: Designing scalable RESTful APIs, robust database architectures (MySQL/PDO), and secure web endpoints.
+* 🤖 **Artificial Intelligence**: Integrating Vision & Multi-Modal LLM models (Google Gemini 2.5 Flash API) for automated extraction and intelligent processing.
+* ⚡ **Workflow Automations**: Constructing end-to-end automated pipelines with **n8n**, Telegram bots, webhooks, and cloud storage.
+* 💻 **Software & Technology**: Developing clean, maintainable software and exploring modern tech paradigms.
+
+---
+
+### 💼 Featured Projects
 
 * 💼 **[Automatizacion de Rendicion de Viaticos (Inter)](https://github.com/gerardorflammia/Automatizacion-de-Rendicion-de-Viaticos-Inter)**
-  An automated expense claims system integrating Telegram Bot, n8n workflows, Google Gemini 2.5 Flash OCR vision, PHP, and MySQL for corporate invoice validation and Excel report generation.
+  An automated corporate expense claims system integrating Telegram Bot, n8n workflows, Google Gemini 2.5 Flash OCR vision, PHP, and MySQL for invoice validation and Excel report generation.
 
 ---
 
@@ -44,5 +54,5 @@ I build full-stack web applications, automate complex business workflows with **
 ---
 
 <div align="center">
-  <i>"If you don't take risks, you can't create a future." — Monkey D. Luffy 🏴‍☠️</i>
+  <i>"Building intelligent systems through backend engineering, AI, and continuous innovation."</i>
 </div>
