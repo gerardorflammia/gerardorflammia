@@ -22,9 +22,7 @@ ASCII_NAME = [
 
 def generate_svg():
     width = 860
-    height = 360  # Increased height to eliminate any bottom clipping
-    row_height = 175 // len(ASCII_NAME) if len(ASCII_NAME) > 0 else 18
-    row_height = max(18, row_height)
+    height = 360
     font_mono = 'monospace, ui-monospace, SFMono-Regular, Menlo, Consolas'
     
     svg_lines = []
@@ -41,7 +39,7 @@ def generate_svg():
     
     center_x = width // 2  # 430px exact horizontal center
     
-    # Render ASCII rows perfectly centered horizontally using text-anchor="middle"
+    # Render ASCII rows centered horizontally with RGB animations
     for i, line in enumerate(ASCII_NAME):
         y_pos = 58 + i * 17
         escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
@@ -51,17 +49,23 @@ def generate_svg():
         anim_tag = ""
         
         if i <= 5:
+            # GERARDO RGB cycle
             fill_color = "#58a6ff"
             anim_tag = '<animate attributeName="fill" values="#58a6ff;#bc8cff;#39d353;#f0883e;#58a6ff" dur="6s" repeatCount="indefinite"/>'
         elif i >= 7 and i <= 12:
+            # FLAMMIA RGB cycle
             fill_color = "#79c0ff"
             anim_tag = '<animate attributeName="fill" values="#79c0ff;#d2a8ff;#56d364;#ffa657;#79c0ff" dur="6s" repeatCount="indefinite"/>'
+        elif "=" in line:
+            # Separator lines RGB cycle
+            fill_color = "#58a6ff"
+            font_size = "12"
+            anim_tag = '<animate attributeName="fill" values="#30363d;#58a6ff;#39d353;#ff7b72;#30363d" dur="6s" repeatCount="indefinite"/>'
         elif i >= 15:
+            # Subtitle RGB cycle
             fill_color = "#39d353"
             font_size = "12"
-        elif "=" in line:
-            fill_color = "#30363d"
-            font_size = "12"
+            anim_tag = '<animate attributeName="fill" values="#39d353;#f0883e;#58a6ff;#bc8cff;#39d353" dur="6s" repeatCount="indefinite"/>'
             
         svg_lines.append(f'  <text x="{center_x}" y="{y_pos}" fill="{fill_color}" font-family="{font_mono}" font-size="{font_size}" font-weight="bold" text-anchor="middle" xml:space="preserve">{anim_tag}{escaped_line}</text>')
         
@@ -73,7 +77,7 @@ def generate_svg():
         f.write("\n".join(svg_lines))
     with open(out2, "w", encoding="utf-8") as f:
         f.write("\n".join(svg_lines))
-    print(f"Generated centered {out1} and {out2}")
+    print(f"Generated RGB animated {out1} and {out2}")
 
 if __name__ == "__main__":
     generate_svg()
