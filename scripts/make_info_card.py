@@ -2,18 +2,18 @@ import os
 
 CARD_DATA = [
     ("Title / Degree", "Electronic Engineer (Ingeniero Electrónico en Computación)"),
-    ("Specialization", "Backend Development, AI Integration & Workflow Automations"),
+    ("Specialization", "Backend Development, AI Systems & Workflow Automations"),
     ("Future Goal", "Pursuing a Master's Degree in Artificial Intelligence"),
-    ("Core Interests", "Backend Engineering, AI Systems, Automations & Tech"),
-    ("Main Stack", "Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Git"),
-    ("Featured Project", "Automated Expense System (Gemini 2.5 Flash + n8n + PHP)"),
+    ("Core Interests", "Backend Engineering, AI Architecture, Automations & Emerging Tech"),
+    ("Main Stack", "Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Git, Linux"),
+    ("Featured Project", "Automated Expense Claims (Gemini 2.5 Flash + n8n + PHP + MySQL)"),
     ("Location", "Venezuela"),
     ("LinkedIn", "linkedin.com/in/gerardo-rodrigues-flammia-1a6522302"),
     ("GitHub", "github.com/gerardorflammia"),
 ]
 
 def generate_info_card():
-    width = 490
+    width = 860
     height = 420
     
     svg_lines = []
@@ -25,12 +25,12 @@ def generate_info_card():
     svg_lines.append('  .title-dot-2 { fill: #ffbd2e; }')
     svg_lines.append('  .title-dot-3 { fill: #27c93f; }')
     svg_lines.append('  .title-text { fill: #8b949e; font-family: monospace; font-size: 11px; }')
-    svg_lines.append('  .header-name { fill: #58a6ff; font-family: monospace; font-size: 15px; font-weight: bold; }')
+    svg_lines.append('  .header-name { fill: #58a6ff; font-family: monospace; font-size: 16px; font-weight: bold; }')
     svg_lines.append('  .header-sep { fill: #30363d; font-family: monospace; font-size: 13px; }')
-    svg_lines.append('  .key-text { fill: #79c0ff; font-family: monospace; font-size: 11px; font-weight: bold; }')
-    svg_lines.append('  .val-text { fill: #c9d1d9; font-family: monospace; font-size: 11px; }')
-    svg_lines.append('  .link-text { fill: #a5d6ff; font-family: monospace; font-size: 11px; text-decoration: underline; }')
-    svg_lines.append('  .color-block { font-family: monospace; font-size: 13px; }')
+    svg_lines.append('  .key-text { fill: #79c0ff; font-family: monospace; font-size: 12px; font-weight: bold; }')
+    svg_lines.append('  .val-text { fill: #c9d1d9; font-family: monospace; font-size: 12px; }')
+    svg_lines.append('  .link-text { fill: #a5d6ff; font-family: monospace; font-size: 12px; text-decoration: underline; }')
+    svg_lines.append('  .color-block { font-family: monospace; font-size: 14px; }')
     
     # CSS animations
     svg_lines.append('  @keyframes fadeIn {')
@@ -50,13 +50,13 @@ def generate_info_card():
     
     # User header line
     svg_lines.append('  <g class="animated-row" style="animation-delay: 0.1s;">')
-    svg_lines.append('    <text x="20" y="55" class="header-name">gerardorflammia</text>')
-    svg_lines.append('    <text x="165" y="55" class="header-name" fill="#d2a8ff">@</text>')
-    svg_lines.append('    <text x="180" y="55" class="header-name" fill="#7ee787">backend-ai-dev</text>')
-    svg_lines.append('    <text x="20" y="70" class="header-sep">--------------------------------------------------</text>')
+    svg_lines.append('    <text x="30" y="58" class="header-name">gerardorflammia</text>')
+    svg_lines.append('    <text x="180" y="58" class="header-name" fill="#d2a8ff">@</text>')
+    svg_lines.append('    <text x="200" y="58" class="header-name" fill="#7ee787">backend-ai-dev</text>')
+    svg_lines.append('    <text x="30" y="74" class="header-sep">--------------------------------------------------------------------------------</text>')
     svg_lines.append('  </g>')
     
-    start_y = 92
+    start_y = 96
     y_step = 28
     
     for idx, (key, val) in enumerate(CARD_DATA):
@@ -64,12 +64,12 @@ def generate_info_card():
         y_pos = start_y + idx * y_step
         
         svg_lines.append(f'  <g class="animated-row" style="animation-delay: {delay:.2f}s;">')
-        svg_lines.append(f'    <text x="20" y="{y_pos}" class="key-text">{key}:</text>')
+        svg_lines.append(f'    <text x="30" y="{y_pos}" class="key-text">{key}:</text>')
         
         is_link = "linkedin.com" in val or "github.com" in val
         val_class = "link-text" if is_link else "val-text"
         
-        key_width_offset = 20 + max(115, len(key) * 8 + 10)
+        key_width_offset = 200
         svg_lines.append(f'    <text x="{key_width_offset}" y="{y_pos}" class="{val_class}">{val}</text>')
         svg_lines.append('  </g>')
         
@@ -77,15 +77,15 @@ def generate_info_card():
     blocks_delay = 0.2 + len(CARD_DATA) * 0.08 + 0.1
     blocks_y = start_y + len(CARD_DATA) * y_step + 10
     svg_lines.append(f'  <g class="animated-row" style="animation-delay: {blocks_delay:.2f}s;">')
-    svg_lines.append(f'    <text x="20" y="{blocks_y}" class="color-block">')
-    svg_lines.append('      <tspan fill="#484f58">███</tspan>')
-    svg_lines.append('      <tspan fill="#ff7b72">███</tspan>')
-    svg_lines.append('      <tspan fill="#7ee787">███</tspan>')
-    svg_lines.append('      <tspan fill="#ffa657">███</tspan>')
-    svg_lines.append('      <tspan fill="#79c0ff">███</tspan>')
-    svg_lines.append('      <tspan fill="#d2a8ff">███</tspan>')
-    svg_lines.append('      <tspan fill="#f0883e">███</tspan>')
-    svg_lines.append('      <tspan fill="#f0f6fc">███</tspan>')
+    svg_lines.append(f'    <text x="30" y="{blocks_y}" class="color-block">')
+    svg_lines.append('      <tspan fill="#484f58">█████</tspan>')
+    svg_lines.append('      <tspan fill="#ff7b72">█████</tspan>')
+    svg_lines.append('      <tspan fill="#7ee787">█████</tspan>')
+    svg_lines.append('      <tspan fill="#ffa657">█████</tspan>')
+    svg_lines.append('      <tspan fill="#79c0ff">█████</tspan>')
+    svg_lines.append('      <tspan fill="#d2a8ff">█████</tspan>')
+    svg_lines.append('      <tspan fill="#f0883e">█████</tspan>')
+    svg_lines.append('      <tspan fill="#f0f6fc">█████</tspan>')
     svg_lines.append('    </text>')
     svg_lines.append('  </g>')
     
