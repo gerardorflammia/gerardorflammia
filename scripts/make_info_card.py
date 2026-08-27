@@ -1,12 +1,12 @@
 import os
 
 CARD_DATA = [
-    ("Title / Degree", "Electronic Engineer (Ingeniero Electrónico en Computación)"),
+    ("Title / Degree", "Electronic Engineer (Ingeniero Electronico en Computacion)"),
     ("Specialization", "Backend Development, AI Systems & Workflow Automations"),
     ("Future Goal", "Pursuing a Master's Degree in Artificial Intelligence"),
-    ("Core Interests", "Backend Engineering, AI Architecture, Automations & Emerging Tech"),
+    ("Core Interests", "Backend Engineering, AI Architecture, Automations & Tech"),
     ("Main Stack", "Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Git, Linux"),
-    ("Featured Project", "Automated Expense Claims (Gemini 2.5 Flash + n8n + PHP + MySQL)"),
+    ("Featured Project", "Automated Expense Claims (Gemini 2.5 Flash + n8n + PHP)"),
     ("Location", "Venezuela"),
     ("LinkedIn", "linkedin.com/in/gerardo-rodrigues-flammia-1a6522302"),
     ("GitHub", "github.com/gerardorflammia"),
@@ -18,6 +18,7 @@ def generate_info_card():
     font_mono = 'monospace, ui-monospace, SFMono-Regular, Menlo, Consolas'
     
     svg_lines = []
+    svg_lines.append('<?xml version="1.0" encoding="UTF-8"?>')
     svg_lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">')
     
     # Background card

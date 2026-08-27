@@ -27,6 +27,7 @@ def generate_svg():
     font_mono = 'monospace, ui-monospace, SFMono-Regular, Menlo, Consolas'
     
     svg_lines = []
+    svg_lines.append('<?xml version="1.0" encoding="UTF-8"?>')
     svg_lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">')
     
     # Background card with inline attributes
@@ -47,11 +48,9 @@ def generate_svg():
         anim_tag = ""
         
         if i <= 5:
-            # Color cycle for GERARDO
             fill_color = "#58a6ff"
             anim_tag = '<animate attributeName="fill" values="#58a6ff;#bc8cff;#39d353;#f0883e;#58a6ff" dur="6s" repeatCount="indefinite"/>'
         elif i >= 7 and i <= 12:
-            # Color cycle for FLAMMIA
             fill_color = "#79c0ff"
             anim_tag = '<animate attributeName="fill" values="#79c0ff;#d2a8ff;#56d364;#ffa657;#79c0ff" dur="6s" repeatCount="indefinite"/>'
         elif i >= 15:
