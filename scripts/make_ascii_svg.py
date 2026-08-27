@@ -99,7 +99,7 @@ def generate_svg():
         
     svg_lines.append('</svg>')
     
-    output_path = os.path.join(os.path.dirname(__file__), "..", "ascii-art.svg")
+    output_path = os.path.join(os.path.dirname(__file__), "..", "ascii-art-v2.svg")
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(svg_lines))
     print(f"Generated {output_path}")

@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 420" width="370" height="420">
+<style>
+  .bg { fill: #0d1117; rx: 8px; ry: 8px; stroke: #30363d; stroke-width: 1px; }
+  .title-bar { fill: #161b22; }
+  .title-dot-1 { fill: #ff5f56; }
+  .title-dot-2 { fill: #ffbd2e; }
+  .title-dot-3 { fill: #27c93f; }
+  .title-text { fill: #8b949e; font-family: monospace; font-size: 11px; }
+  .ascii-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 7.5px; font-weight: bold; white-space: pre; }
+  @keyframes colorGlow {
+    0% { fill: #58a6ff; }
+    25% { fill: #bc8cff; }
+    50% { fill: #39d353; }
+    75% { fill: #f0883e; }
+    100% { fill: #58a6ff; }
+  }
+  @keyframes colorGlowAlt {
+    0% { fill: #79c0ff; }
+    33% { fill: #d2a8ff; }
+    66% { fill: #56d364; }
+    100% { fill: #79c0ff; }
+  }
+  .c-name { animation: colorGlow 6s ease-in-out infinite; }
+  .c-flammia { animation: colorGlowAlt 6s ease-in-out infinite; }
+  .c-subtitle { fill: #39d353; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; font-weight: bold; }
+  .c-sep { fill: #30363d; font-family: monospace; font-size: 9.5px; }
+</style>
+  <rect width="370" height="420" class="bg"/>
+  <path d="M0 8 C0 3.58 3.58 0 8 0 L362 0 C366.42 0 370 3.58 370 8 L370 28 L0 28 Z" class="title-bar"/>
+  <circle cx="15" cy="14" r="4" class="title-dot-1"/>
+  <circle cx="27" cy="14" r="4" class="title-dot-2"/>
+  <circle cx="39" cy="14" r="4" class="title-dot-3"/>
+  <text x="54" y="18" class="title-text">gerardo@banner ~ ascii_art.sh</text>
+  <defs>
+    <clipPath id="clip-row-0">
+      <rect x="8" y="45" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.00s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-1">
+      <rect x="8" y="61" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.06s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-2">
+      <rect x="8" y="77" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.12s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-3">
+      <rect x="8" y="93" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.18s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-4">
+      <rect x="8" y="109" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.24s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-5">
+      <rect x="8" y="125" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.30s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-6">
+      <rect x="8" y="141" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.36s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-7">
+      <rect x="8" y="157" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.42s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-8">
+      <rect x="8" y="173" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.48s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-9">
+      <rect x="8" y="189" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.54s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-10">
+      <rect x="8" y="205" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.60s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-11">
+      <rect x="8" y="221" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.66s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-12">
+      <rect x="8" y="237" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.72s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-13">
+      <rect x="8" y="253" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.78s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-14">
+      <rect x="8" y="269" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.84s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-15">
+      <rect x="8" y="285" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.90s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-row-16">
+      <rect x="8" y="301" width="0" height="16">
+        <animate attributeName="width" from="0" to="354" begin="0.96s" dur="0.12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-row-0)">
+    <text x="12" y="110" class="ascii-text c-name"> ██████╗ ███████╗██████╗  █████╗ ██████╗ ██████╗  ██████╗ </text>
+  </g>
+  <g clip-path="url(#clip-row-1)">
+    <text x="12" y="126" class="ascii-text c-name">██╔════╝ ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔═══██╗</text>
+  </g>
+  <g clip-path="url(#clip-row-2)">
+    <text x="12" y="142" class="ascii-text c-name">██║  ███╗█████╗  ██████╔╝███████║██████╔╝██║  ██║██║   ██║</text>
+  </g>
+  <g clip-path="url(#clip-row-3)">
+    <text x="12" y="158" class="ascii-text c-name">██║   ██║██╔══╝  ██╔══██╗██╔══██║██╔══██╗██║  ██║██║   ██║</text>
+  </g>
+  <g clip-path="url(#clip-row-4)">
+    <text x="12" y="174" class="ascii-text c-name">╚██████╔╝███████╗██║  ██║██║  ██║██║  ██║██████╔╝╚██████╔╝</text>
+  </g>
+  <g clip-path="url(#clip-row-5)">
+    <text x="12" y="190" class="ascii-text c-name"> ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ </text>
+  </g>
+  <g clip-path="url(#clip-row-6)">
+    <text x="12" y="206" class="ascii-text c-name"></text>
+  </g>
+  <g clip-path="url(#clip-row-7)">
+    <text x="12" y="222" class="ascii-text c-flammia">███████╗██╗      █████╗ ███╗   ███╗███╗   ███╗██╗█████╗  </text>
+  </g>
+  <g clip-path="url(#clip-row-8)">
+    <text x="12" y="238" class="ascii-text c-flammia">██╔════╝██║     ██╔══██╗████╗ ████║████╗ ████║██║██╔══██╗</text>
+  </g>
+  <g clip-path="url(#clip-row-9)">
+    <text x="12" y="254" class="ascii-text c-flammia">█████╗  ██║     ███████║██╔████╔██║██╔████╔██║██║███████║</text>
+  </g>
+  <g clip-path="url(#clip-row-10)">
+    <text x="12" y="270" class="ascii-text c-flammia">██╔══╝  ██║     ██╔══██║██║╚██╔╝██║██║╚██╔╝██║██║██╔══██║</text>
+  </g>
+  <g clip-path="url(#clip-row-11)">
+    <text x="12" y="286" class="ascii-text c-flammia">██║     ███████╗██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║██║██║  ██║</text>
+  </g>
+  <g clip-path="url(#clip-row-12)">
+    <text x="12" y="302" class="ascii-text c-flammia">╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝</text>
+  </g>
+  <g clip-path="url(#clip-row-13)">
+    <text x="12" y="318" class="ascii-text c-name"></text>
+  </g>
+  <g clip-path="url(#clip-row-14)">
+    <text x="12" y="334" class="c-sep">=========================================================</text>
+  </g>
+  <g clip-path="url(#clip-row-15)">
+    <text x="12" y="350" class="c-subtitle">      R&amp;D ENGINEER | BACKEND &amp; AI | AUTOMATIONS          </text>
+  </g>
+  <g clip-path="url(#clip-row-16)">
+    <text x="12" y="366" class="c-subtitle">=========================================================</text>
+  </g>
+</svg>
