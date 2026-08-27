@@ -73,11 +73,12 @@ def generate_svg():
     
     out1 = os.path.join(os.path.dirname(__file__), "..", "ascii-art.svg")
     out2 = os.path.join(os.path.dirname(__file__), "..", "ascii-art-v2.svg")
-    with open(out1, "w", encoding="utf-8") as f:
-        f.write("\n".join(svg_lines))
-    with open(out2, "w", encoding="utf-8") as f:
-        f.write("\n".join(svg_lines))
-    print(f"Generated RGB animated {out1} and {out2}")
+    out3 = os.path.join(os.path.dirname(__file__), "..", "ascii-art-v3.svg")
+    
+    for path in [out1, out2, out3]:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("\n".join(svg_lines))
+    print(f"Generated {out1}, {out2}, and {out3}")
 
 if __name__ == "__main__":
     generate_svg()

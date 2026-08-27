@@ -1,7 +1,7 @@
 <div align="center">
 
 <h3><code>gerardo@github ~ $ ./banner.sh</code></h3>
-<img src="./ascii-art.svg" width="860" alt="ASCII Art Banner" />
+<img src="./ascii-art-v3.svg" width="860" alt="ASCII Art Banner" />
 
 <br><br>
 
