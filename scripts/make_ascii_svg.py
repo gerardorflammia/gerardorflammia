@@ -1,32 +1,32 @@
 import os
 
 ASCII_NAME = [
-    "   ______ _____ _____            _____  _____   ____  ",
-    "  / _____|  ___|  __ \\   /\\     |  __ \\|  __ \\ / __ \\ ",
-    " | |  __ | |__ | |__) | /  \\    | |__) | |  | | |  | |",
-    " | | |_ ||  __||  _  / / /\\ \\   |  _  /| |  | | |  | |",
-    " | |__| || |___| | \\ \\/ ____ \\  | | \\ \\| |__| | |__| |",
-    "  \\_____||_____|_|  \\_\\_/    \\_\\|_|  \\_\\_____/ \\____/ ",
+    " ██████╗ ███████╗██████╗  █████╗ ██████╗ ██████╗  ██████╗ ",
+    "██╔════╝ ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔═══██╗",
+    "██║  ███╗█████╗  ██████╔╝███████║██████╔╝██║  ██║██║   ██║",
+    "██║   ██║██╔══╝  ██╔══██╗██╔══██║██╔══██╗██║  ██║██║   ██║",
+    "╚██████╔╝███████╗██║  ██║██║  ██║██║  ██║██████╔╝╚██████╔╝",
+    " ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ",
     "",
-    "  ______ _        ______  __  __ __  __ _____   /\\\\ ",
-    " |  ____| |      / __  \\  \\/  \\/  |  \\/  |  __ \\ /  \\",
-    " | |__  | |     | |  |  | \\  /\\  /|  \\/  | |__) | /\\ \\",
-    " |  __| | |     | |  |  |  \\/  \\/ | |\\/| |  ___/ /  \\ \\",
-    " | |    | |____ | |__|  |   \\  /  | |  | | |    / ____ \\",
-    " |_|    |______\\______/    \\/   |_|  |_|_|   /_/    \\_\\",
+    "███████╗██╗      █████╗ ███╗   ███╗███╗   ███╗██╗█████╗  ",
+    "██╔════╝██║     ██╔══██╗████╗ ████║████╗ ████║██║██╔══██╗",
+    "█████╗  ██║     ███████║██╔████╔██║██╔████╔██║██║███████║",
+    "██╔══╝  ██║     ██╔══██║██║╚██╔╝██║██║╚██╔╝██║██║██╔══██║",
+    "██║     ███████╗██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║██║██║  ██║",
+    "╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝",
     "",
-    "==========================================================",
-    "    SOFTWARE & AI ENGINEER  |  BACKEND & AUTOMATIONS",
-    "==========================================================",
+    "=========================================================",
+    "      R&D ENGINEER | BACKEND & AI | AUTOMATIONS          ",
+    "=========================================================",
 ]
 
 def generate_svg():
+    width = 370
+    height = 420
     row_height = 16
     total_rows = len(ASCII_NAME)
-    width = 370
-    height = max(420, total_rows * row_height + 60)
     
-    duration_per_row = 0.07
+    duration_per_row = 0.06
     
     svg_lines = []
     svg_lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">')
@@ -37,7 +37,7 @@ def generate_svg():
     svg_lines.append('  .title-dot-2 { fill: #ffbd2e; }')
     svg_lines.append('  .title-dot-3 { fill: #27c93f; }')
     svg_lines.append('  .title-text { fill: #8b949e; font-family: monospace; font-size: 11px; }')
-    svg_lines.append('  .ascii-text { font-family: "Courier New", Courier, monospace; font-size: 8.5px; font-weight: bold; white-space: pre; }')
+    svg_lines.append('  .ascii-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 7.5px; font-weight: bold; white-space: pre; }')
     
     # Animated gradient colors
     svg_lines.append('  @keyframes colorGlow {')
@@ -57,8 +57,8 @@ def generate_svg():
 
     svg_lines.append('  .c-name { animation: colorGlow 6s ease-in-out infinite; }')
     svg_lines.append('  .c-flammia { animation: colorGlowAlt 6s ease-in-out infinite; }')
-    svg_lines.append('  .c-subtitle { fill: #e6edf3; font-family: monospace; font-size: 9.5px; font-weight: bold; }')
-    svg_lines.append('  .c-sep { fill: #30363d; font-family: monospace; font-size: 10px; }')
+    svg_lines.append('  .c-subtitle { fill: #39d353; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; font-weight: bold; }')
+    svg_lines.append('  .c-sep { fill: #30363d; font-family: monospace; font-size: 9.5px; }')
     svg_lines.append('</style>')
     
     # Background card
@@ -82,19 +82,19 @@ def generate_svg():
     
     # Render ASCII rows
     for i, line in enumerate(ASCII_NAME):
-        y_pos = 58 + i * row_height
+        y_pos = 110 + i * row_height
         escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         
         css_class = "ascii-text c-name"
         if i >= 7 and i <= 12:
             css_class = "ascii-text c-flammia"
-        elif i >= 14:
+        elif i >= 15:
             css_class = "c-subtitle"
         elif "=" in line:
             css_class = "c-sep"
             
         svg_lines.append(f'  <g clip-path="url(#clip-row-{i})">')
-        svg_lines.append(f'    <text x="10" y="{y_pos}" class="{css_class}">{escaped_line}</text>')
+        svg_lines.append(f'    <text x="12" y="{y_pos}" class="{css_class}">{escaped_line}</text>')
         svg_lines.append('  </g>')
         
     svg_lines.append('</svg>')
