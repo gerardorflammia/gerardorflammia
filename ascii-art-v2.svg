@@ -20,8 +20,11 @@
     66% { fill: #56d364; }
     100% { fill: #79c0ff; }
   }
-  .c-name { animation: colorGlow 6s ease-in-out infinite; }
-  .c-flammia { animation: colorGlowAlt 6s ease-in-out infinite; }
+  .ascii-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 7.5px; font-weight: bold; white-space: pre; fill: #58a6ff; }
+  
+  /* Explicit fallback colors + animations */
+  .c-name { fill: #58a6ff; animation: colorGlow 6s ease-in-out infinite; }
+  .c-flammia { fill: #79c0ff; animation: colorGlowAlt 6s ease-in-out infinite; }
   .c-subtitle { fill: #39d353; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; font-weight: bold; }
   .c-sep { fill: #30363d; font-family: monospace; font-size: 9.5px; }
 </style>

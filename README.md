@@ -8,7 +8,7 @@
 <h3><code>gerardo@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./ascii-art-v2.svg" width="370" /></td>
+    <td valign="top"><img src="./ascii-art-v2.svg?v=4" width="370" /></td>
     <td valign="top"><img src="./info-card.svg" width="490" /></td>
   </tr>
 </table>

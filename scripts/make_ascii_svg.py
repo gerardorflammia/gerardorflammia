@@ -55,8 +55,11 @@ def generate_svg():
     svg_lines.append('    100% { fill: #79c0ff; }')
     svg_lines.append('  }')
 
-    svg_lines.append('  .c-name { animation: colorGlow 6s ease-in-out infinite; }')
-    svg_lines.append('  .c-flammia { animation: colorGlowAlt 6s ease-in-out infinite; }')
+    svg_lines.append('  .ascii-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 7.5px; font-weight: bold; white-space: pre; fill: #58a6ff; }')
+    svg_lines.append('  ')
+    svg_lines.append('  /* Explicit fallback colors + animations */')
+    svg_lines.append('  .c-name { fill: #58a6ff; animation: colorGlow 6s ease-in-out infinite; }')
+    svg_lines.append('  .c-flammia { fill: #79c0ff; animation: colorGlowAlt 6s ease-in-out infinite; }')
     svg_lines.append('  .c-subtitle { fill: #39d353; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; font-weight: bold; }')
     svg_lines.append('  .c-sep { fill: #30363d; font-family: monospace; font-size: 9.5px; }')
     svg_lines.append('</style>')
