@@ -22,8 +22,9 @@ ASCII_NAME = [
 
 def generate_svg():
     width = 860
-    height = 310
-    row_height = 17
+    height = 360  # Increased height to eliminate any bottom clipping
+    row_height = 175 // len(ASCII_NAME) if len(ASCII_NAME) > 0 else 18
+    row_height = max(18, row_height)
     font_mono = 'monospace, ui-monospace, SFMono-Regular, Menlo, Consolas'
     
     svg_lines = []
@@ -38,11 +39,11 @@ def generate_svg():
     svg_lines.append('  <circle cx="39" cy="14" r="4" fill="#27c93f"/>')
     svg_lines.append(f'  <text x="54" y="18" fill="#8b949e" font-family="{font_mono}" font-size="11">gerardo@banner ~ ascii_art.sh</text>')
     
-    start_x = 150
+    center_x = width // 2  # 430px exact horizontal center
     
-    # Render ASCII rows centered horizontally
+    # Render ASCII rows perfectly centered horizontally using text-anchor="middle"
     for i, line in enumerate(ASCII_NAME):
-        y_pos = 52 + i * row_height
+        y_pos = 58 + i * 17
         escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         
         fill_color = "#58a6ff"
@@ -62,7 +63,7 @@ def generate_svg():
             fill_color = "#30363d"
             font_size = "12"
             
-        svg_lines.append(f'  <text x="{start_x}" y="{y_pos}" fill="{fill_color}" font-family="{font_mono}" font-size="{font_size}" font-weight="bold" xml:space="preserve">{anim_tag}{escaped_line}</text>')
+        svg_lines.append(f'  <text x="{center_x}" y="{y_pos}" fill="{fill_color}" font-family="{font_mono}" font-size="{font_size}" font-weight="bold" text-anchor="middle" xml:space="preserve">{anim_tag}{escaped_line}</text>')
         
     svg_lines.append('</svg>')
     
@@ -72,7 +73,7 @@ def generate_svg():
         f.write("\n".join(svg_lines))
     with open(out2, "w", encoding="utf-8") as f:
         f.write("\n".join(svg_lines))
-    print(f"Generated {out1} and {out2}")
+    print(f"Generated centered {out1} and {out2}")
 
 if __name__ == "__main__":
     generate_svg()
