@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400">
+  <rect width="860" height="400" fill="#0d1117" rx="8" ry="8" stroke="#30363d" stroke-width="1"/>
+  <path d="M0 8 C0 3.58 3.58 0 8 0 L852 0 C856.42 0 860 3.58 860 8 L860 28 L0 28 Z" fill="#161b22"/>
+  <circle cx="15" cy="14" r="4" fill="#ff5f56"/>
+  <circle cx="27" cy="14" r="4" fill="#ffbd2e"/>
+  <circle cx="39" cy="14" r="4" fill="#27c93f"/>
+  <text x="54" y="18" fill="#8b949e" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="11">gerardo@github ~ neofetch</text>
+  <text x="30" y="58" fill="#58a6ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="16" font-weight="bold">gerardorflammia</text>
+  <text x="180" y="58" fill="#d2a8ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="16" font-weight="bold">@</text>
+  <text x="200" y="58" fill="#7ee787" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="16" font-weight="bold">backend-ai-dev</text>
+  <text x="30" y="74" fill="#30363d" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="13">--------------------------------------------------------------------------------</text>
+  <text x="30" y="96" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">Title / Degree:</text>
+  <text x="200" y="96" fill="#c9d1d9" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">Electronic Engineer (Ingeniero Electronico en Computacion)</text>
+  <text x="30" y="124" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">Specialization:</text>
+  <text x="200" y="124" fill="#c9d1d9" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">Backend Development, AI Systems & Workflow Automations</text>
+  <text x="30" y="152" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">Future Goal:</text>
+  <text x="200" y="152" fill="#c9d1d9" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">Pursuing a Master's Degree in Artificial Intelligence</text>
+  <text x="30" y="180" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">Core Interests:</text>
+  <text x="200" y="180" fill="#c9d1d9" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">Backend Engineering, AI Architecture, Automations & Tech</text>
+  <text x="30" y="208" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">Main Stack:</text>
+  <text x="200" y="208" fill="#c9d1d9" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">Python, PHP, JavaScript, SQL, C/C++, n8n, Docker, Git, Linux</text>
+  <text x="30" y="236" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">Featured Project:</text>
+  <text x="200" y="236" fill="#c9d1d9" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">Automated Expense Claims (Gemini 2.5 Flash + n8n + PHP + MySQL)</text>
+  <text x="30" y="264" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">Location:</text>
+  <text x="200" y="264" fill="#c9d1d9" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">Venezuela</text>
+  <text x="30" y="292" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">LinkedIn:</text>
+  <text x="200" y="292" fill="#a5d6ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">linkedin.com/in/gerardo-rodrigues-flammia-1a6522302</text>
+  <text x="30" y="320" fill="#79c0ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12" font-weight="bold">GitHub:</text>
+  <text x="200" y="320" fill="#a5d6ff" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="12">github.com/gerardorflammia</text>
+  <text x="30" y="358" font-family="monospace, ui-monospace, SFMono-Regular, Menlo, Consolas" font-size="14">
+    <tspan fill="#484f58">█████</tspan>
+    <tspan fill="#ff7b72">█████</tspan>
+    <tspan fill="#7ee787">█████</tspan>
+    <tspan fill="#ffa657">█████</tspan>
+    <tspan fill="#79c0ff">█████</tspan>
+    <tspan fill="#d2a8ff">█████</tspan>
+    <tspan fill="#f0883e">█████</tspan>
+    <tspan fill="#f0f6fc">█████</tspan>
+  </text>
+</svg>
