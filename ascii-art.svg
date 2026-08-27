@@ -30,7 +30,7 @@
   <circle cx="15" cy="14" r="4" class="title-dot-1"/>
   <circle cx="27" cy="14" r="4" class="title-dot-2"/>
   <circle cx="39" cy="14" r="4" class="title-dot-3"/>
-  <text x="54" y="18" class="title-text">gerardo@banner ~ ascii_name.sh</text>
+  <text x="54" y="18" class="title-text">gerardo@banner ~ ascii_art.sh</text>
   <defs>
     <clipPath id="clip-row-0">
       <rect x="8" y="45" width="0" height="16">

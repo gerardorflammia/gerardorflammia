@@ -67,7 +67,7 @@ def generate_svg():
     svg_lines.append('  <circle cx="15" cy="14" r="4" class="title-dot-1"/>')
     svg_lines.append('  <circle cx="27" cy="14" r="4" class="title-dot-2"/>')
     svg_lines.append('  <circle cx="39" cy="14" r="4" class="title-dot-3"/>')
-    svg_lines.append('  <text x="54" y="18" class="title-text">gerardo@banner ~ ascii_name.sh</text>')
+    svg_lines.append('  <text x="54" y="18" class="title-text">gerardo@banner ~ ascii_art.sh</text>')
     
     # Defs for clip paths
     svg_lines.append('  <defs>')
