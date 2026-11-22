@@ -1,49 +1,14 @@
 {
   "username": "gerardorflammia",
-  "updated_at": "2026-11-21T14:42:52.121712+00:00",
-  "total_contributions": 164,
+  "updated_at": "2026-11-22T14:38:22.073718+00:00",
+  "total_contributions": 165,
   "current_streak": 0,
-  "longest_streak": 86,
+  "longest_streak": 87,
   "best_day": {
     "date": "2026-08-27",
     "count": 42
   },
   "days": [
-    {
-      "date": "2025-11-16",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-17",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-18",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-19",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-20",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-21",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-22",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-11-23",
       "count": 0,
@@ -1861,6 +1826,11 @@
     },
     {
       "date": "2026-11-21",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-22",
       "count": 0,
       "level": 0
     }
